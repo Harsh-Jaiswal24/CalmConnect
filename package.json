@@ -1,12 +1,12 @@
 {
   "homepage": "https://harsh-jaiswal24.github.io/CalmConnect/",
   "private": true,
-  "main":"main.jsx",
+  "main": "main.jsx",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist", 
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
